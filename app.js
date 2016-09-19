@@ -23,5 +23,5 @@ app.use(bodyParser.json());
 routes(app);
 
 app.listen(port, () => {
-  logger.info(`App listening on port ${port}`);
+    logger.info(`App listening on port ${port}`);
 });
